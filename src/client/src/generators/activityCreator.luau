@@ -23,7 +23,7 @@ function activityCreator:Get()
 	local description = "Developing"
 	local smallImageKey, smallImageDesc = "",""
 	if active~=nil then
-		description = "Editing "..active.Name.." ("..#string.split(active.source,"\n").." lines)"
+		description = "Editing"
 	end
 	if active==nil then
 		active = "studio"
